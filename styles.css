@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background-image: url("images/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px 10px;
+   background-color: #96bc68ab;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: "Sans Serif";
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #cc4545, 0 0 10px #5d86d3, 0 0 15px #c78e39;
+}
+
+header h3 {
+    font-family: Gabriola;
+    font-size: 28px;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #76b48e;
+    text-decoration: underline;
+}
+
+/* Content Styles */
+main {
+    padding: 20px;
+}
+
+p {
+   
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside article {
+    background-color: rgba(237, 240, 201, 0.445);
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #76b48e;
+}
+
+/* Input Styles */
+input[type="button"], input[type="submit"] {
+    background-color: #76b48e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #5a8f6b;
+}
